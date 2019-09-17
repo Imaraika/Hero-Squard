@@ -44,12 +44,12 @@ public class App {
             Map<String, Object> model = new HashMap<>();
             ArrayList<Hero> hero = Hero.getAllInstances();
             model.put("hero",hero);
-            return new ModelAndView(model, "hero.hbs");
+            return new ModelAndView(model, "herotemp.hbs");
         }, new HandlebarsTemplateEngine());
 
         get("/squad-form",(req, res) ->{
             Map<String, Object> model = new HashMap<>();
-            return new ModelAndView(model, "squadform.hbs");
+            return new ModelAndView(model, "squardPage.hbs");
         }, new HandlebarsTemplateEngine());
 
         get("/squad",(req, res) ->{
@@ -60,7 +60,7 @@ public class App {
             model.put("heroes",members);
             Squard newSquad = Squard.findBySqId(1);
             model.put("allSquadMembers", newSquad.getSquadMembers());
-            return new ModelAndView(model, "squad.hbs");
+            return new ModelAndView(model, "squardtemp.hbs");
         }, new HandlebarsTemplateEngine());
 
         post("/squad/new",(req,res)-> {
