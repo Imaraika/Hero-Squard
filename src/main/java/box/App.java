@@ -27,7 +27,7 @@ public class App {
 
         staticFileLocation("/public");
         Hero.newHeroSet();
-        Squard.setUpNewSquad();
+        Squard.setNewSquard();
 //       Squad.setUpNewSquad1();
 
         get("/", (request, response) -> {
