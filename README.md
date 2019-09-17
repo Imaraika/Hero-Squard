@@ -9,8 +9,8 @@ app that allows you to recruit a well-balanced team of superheroes (or any other
 
 The application allows users to do the following:
 
-- being able to enter the plainText.
-- being able to enter any key value from keyboard from 1 to 26. 
+- being able to Create a Hero.
+- being able to fill the form by entering the Hero information. 
 - and the program will give to her/him the cipherText message 
 - and asking him/she to enter that ciphertext to decrypted the message 
 - and enter again the same key to decrypt the message
