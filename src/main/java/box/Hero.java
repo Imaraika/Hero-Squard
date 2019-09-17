@@ -40,7 +40,7 @@ public class Hero {
         return instances.get(id-1);
     }
     public static Hero newHeroSet() {
-        return new Hero("Ange",25,"helping","nervous");
+        return new Hero("Alice",25,"helping","nervous");
     }
 
 }
