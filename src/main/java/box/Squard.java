@@ -51,7 +51,7 @@ public class Squard {
          getSquadMembers().clear();
      }
 
-    public static Squard setUpNewSquad(){
+    public static Squard setNewSquard(){
          return new Squard("Nyabugogo Data Promoters ",5,"data promoting");
      }
     public static Squard setUpNewSquad1(){
