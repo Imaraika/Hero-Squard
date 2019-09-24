@@ -26,6 +26,7 @@ The application allows users to do the following:
 'the name of project must have the same name with clasess'
 'then put the code with its rescpective classes'
 'then run the main'
+
 ## Technology Used
 Intelj 
 Java 
