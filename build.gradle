@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 group 'myproject'
@@ -19,3 +20,6 @@ dependencies {
     compile 'org.sql2o:sql2o:1.5.4'
     compile group: 'com.h2database', name: 'h2', version: '1.4.191'
 }
+applicationName = "ange_i"
+mainClassName = 'App'
+task stage(dependsOn: ['clean', 'installDist'])
